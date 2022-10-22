@@ -1,1 +1,45 @@
 /* styling goes here*/
+body{
+    background-color: #1D7874;
+    margin: 0;
+}
+
+header{ 
+    background-color: #FCD0A1;
+    display:  flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+header h1 {
+    color: #1D7874;
+}
+
+.logo {
+    margin-top: 5px;
+    background-color: #1D7874;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #1D7874;
+    font-size: 1.5rem;
+}
+
+.nav-items a:hover{
+    color: aqua;
+    background-color: #1D7874;
+}
